@@ -1,0 +1,26 @@
+header{
+    background:rgba(#fff, .9);
+    border-radius: 4px;
+    padding:10px;
+    display: flex;
+    margin-bottom:10px;
+    h1{
+        
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color:#800080;
+    }
+    .username{
+        color:blue;
+        span{
+            font-weight: bold;
+        }
+    }   
+    .select{
+        text-align: right;
+        .MuiFormControl-root{
+            width:150px;
+        }
+    }
+   
+}
